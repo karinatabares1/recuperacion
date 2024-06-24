@@ -1,0 +1,127 @@
+
+.contenedorMayor{
+    display: flex;
+    justify-content:space-around;
+    margin: 9px;
+}
+.contenedorUno{
+    background-image: url("../asstets/images/gunsNroses.jpg");
+    font-size: 90px;
+    padding: 400px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 9px;
+    width: 100%;
+
+}
+.titulo{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 100px;
+}
+#principal{
+        max-width: 280px;
+        padding: 2px;
+        
+}
+.letra{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0px;
+
+}
+.contenedorDos{
+    background-color: rgb(10, 27, 107);
+    margin: 0;
+    
+}
+#imagenes{
+    width: 350px;
+    height: 350px;
+    padding: 2px;
+}
+.caja1{
+    height: 580px;
+    width: 290px;
+    background-color: rgb(255, 253, 254);
+    margin: 15px;
+    border: 9px;
+    padding: 9px;
+}
+.caja2{
+    height: 580px;
+    width: 290px;
+    background-color: rgb(255, 253, 254);
+    margin: 15px;
+    border: 9px;
+    padding: 9px;
+}
+.caja3{
+    height: 580px;
+    width: 290px;
+    background-color: rgb(255, 253, 254);
+    margin: 15px;
+    border: 9px;
+    padding: 9px;
+}
+.caja4{
+    height: 580px;
+    width: 290px;
+    background-color: rgb(255, 253, 254);
+    margin: 15px;
+    border: 9px;
+    padding: 9px;
+}
+.subtitulo{
+    font-size: 25px;
+    margin: 1px;
+    text-align: center;
+}
+footer{
+    top:36px;
+    text-align: center;
+    margin-top: 100px;
+}
+.fin{
+    top: 500px;
+}
+.piso{
+    background-color:  rgb(10, 27, 107); 
+    color: aliceblue;
+}
+@media screen and (max-width: 480px) {
+    .contenedorMayor{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+  
+    #imagenes{
+        max-width: 350px;
+        height: 350px;
+        padding: 2px;
+    }
+    .caja1, .caja2, .caja3, .caja4{
+        width: 260px; 
+        margin: 15px 0;
+        height: 380px;
+    }
+    .contenedorDos{
+       width: 84%;
+        
+    }
+   
+    footer{
+        top:36px;
+        text-align: center;
+        margin-top: 300px;
+    }
+    .titulo{
+        font-size: 30px; 
+    }
+    .letra{
+        font-size: 10px;
+    }
+}
